@@ -63,7 +63,7 @@ Example
 }
 ```
 
-![Alt text](http://full/path/to/img.jpg "Optional title")
+![Alt text](https://raw.githubusercontent.com/MatteoBatti/UIView_Contrains_Alignment_Example/master/image/example_result.png )
 
 
 
