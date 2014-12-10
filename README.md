@@ -6,6 +6,10 @@ simple Objective-C category for subviews's alignments.
 Usage
 =====
 
+import
+
+`#import "UIView+Alignment.h"`
+
 You can add a consecutive `UIViewAlignment` to `UIView`
 
 ```
@@ -31,6 +35,8 @@ where `IBOX` is
 
 Example
 =====
+
+the following code is a complete example
 
 ```
 - (void)viewDidLoad {
@@ -62,6 +68,8 @@ Example
     [purpleView release];
 }
 ```
+
+and that the result
 
 ![Alt text](https://raw.githubusercontent.com/MatteoBatti/UIView_Contrains_Alignment_Example/master/image/example_result.png )
 
