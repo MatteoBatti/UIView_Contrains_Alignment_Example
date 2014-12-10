@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  UIView_Contrains_Alignment_Example
+//  vertical_alignement_constrains
 //
-//  Created by Matteo Battistini on 10/12/14.
-//  Copyright (c) 2014 Matteo Battistini. All rights reserved.
+//  Created by Matteo on 06/11/14.
+//  Copyright (c) 2014 AppFactory. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
