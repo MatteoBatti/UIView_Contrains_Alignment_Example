@@ -29,6 +29,40 @@ where `IBOX` is
 
 `#define IBOX(x) [NSNumber numberWithLong:x]`
 
+Example
+=====
+
+```
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    UIView *yellowView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 400, 400)];
+    [yellowView setBackgroundColor:[UIColor yellowColor]];
+    UIView *greenView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+    [greenView setBackgroundColor:[UIColor greenColor]];
+    [yellowView addSubview: greenView];
+    [greenView setAlignment:UIViewAlignmentCenter resetContrains:YES];
+    [greenView release];
+    [self.view addSubview:yellowView];
+    [yellowView setAlignment:UIViewAlignmentCenter resetContrains:YES];
+    [yellowView release];
+
+    
+    UIView *redView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 100)];
+    [redView setBackgroundColor:[UIColor redColor]];
+    [self.view addSubview:redView];
+    [redView setAlignment:UIViewAlignmentRight resetContrains:NO];
+    [redView setAlignment:UIViewAlignmentTop resetContrains:NO];
+    [redView release];
+    
+    UIView *purpleView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 100)];
+    [purpleView setBackgroundColor:[UIColor purpleColor]];
+    [self.view addSubview:purpleView];
+    [purpleView setAlignmentChain:@[IBOX(UIViewAlignmentLeft), IBOX(UIViewAlignmentBottom)] resetContrains:NO];
+    [purpleView release];
+}
+```
+
 
 
 
