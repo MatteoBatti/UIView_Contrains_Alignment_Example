@@ -14,7 +14,7 @@
 		AF725E391A38E2540035508D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF725E381A38E2540035508D /* Images.xcassets */; };
 		AF725E3C1A38E2540035508D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF725E3A1A38E2540035508D /* LaunchScreen.xib */; };
 		AF725E481A38E2540035508D /* UIView_Contrains_Alignment_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF725E471A38E2540035508D /* UIView_Contrains_Alignment_ExampleTests.m */; };
-		AF725E531A38E28B0035508D /* UIView+Alignment.m in Sources */ = {isa = PBXBuildFile; fileRef = AF725E521A38E28B0035508D /* UIView+Alignment.m */; };
+		AF725E561A38E61D0035508D /* UIView+Alignment.m in Sources */ = {isa = PBXBuildFile; fileRef = AF725E551A38E61D0035508D /* UIView+Alignment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		AF725E411A38E2540035508D /* UIView_Contrains_Alignment_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIView_Contrains_Alignment_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF725E461A38E2540035508D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF725E471A38E2540035508D /* UIView_Contrains_Alignment_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_Contrains_Alignment_ExampleTests.m; sourceTree = "<group>"; };
-		AF725E511A38E28B0035508D /* UIView+Alignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Alignment.h"; sourceTree = "<group>"; };
-		AF725E521A38E28B0035508D /* UIView+Alignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Alignment.m"; sourceTree = "<group>"; };
+		AF725E541A38E61D0035508D /* UIView+Alignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Alignment.h"; path = "source/UIView+Alignment.h"; sourceTree = SOURCE_ROOT; };
+		AF725E551A38E61D0035508D /* UIView+Alignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Alignment.m"; path = "source/UIView+Alignment.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,8 @@
 				AF725E301A38E2540035508D /* AppDelegate.m */,
 				AF725E321A38E2540035508D /* ViewController.h */,
 				AF725E331A38E2540035508D /* ViewController.m */,
-				AF725E511A38E28B0035508D /* UIView+Alignment.h */,
-				AF725E521A38E28B0035508D /* UIView+Alignment.m */,
+				AF725E541A38E61D0035508D /* UIView+Alignment.h */,
+				AF725E551A38E61D0035508D /* UIView+Alignment.m */,
 				AF725E351A38E2540035508D /* Main.storyboard */,
 				AF725E381A38E2540035508D /* Images.xcassets */,
 				AF725E3A1A38E2540035508D /* LaunchScreen.xib */,
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF725E531A38E28B0035508D /* UIView+Alignment.m in Sources */,
+				AF725E561A38E61D0035508D /* UIView+Alignment.m in Sources */,
 				AF725E341A38E2540035508D /* ViewController.m in Sources */,
 				AF725E311A38E2540035508D /* AppDelegate.m in Sources */,
 				AF725E2E1A38E2540035508D /* main.m in Sources */,

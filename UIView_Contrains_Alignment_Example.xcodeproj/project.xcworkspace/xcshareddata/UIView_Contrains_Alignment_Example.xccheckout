@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5F4C2A5C-7282-48C9-BAC0-C3AEFC25E0B1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UIView_Contrains_Alignment_Example</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>060C8CDDC23AC6ADA12B55BA4F6F37DACDFC8F97</key>
+		<string>https://github.com/MatteoBatti/UIView_Contrains_Alignment_Example.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIView_Contrains_Alignment_Example.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>060C8CDDC23AC6ADA12B55BA4F6F37DACDFC8F97</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MatteoBatti/UIView_Contrains_Alignment_Example.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>060C8CDDC23AC6ADA12B55BA4F6F37DACDFC8F97</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>060C8CDDC23AC6ADA12B55BA4F6F37DACDFC8F97</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UIView_Contrains_Alignment_Example</string>
+		</dict>
+	</array>
+</dict>
+</plist>
