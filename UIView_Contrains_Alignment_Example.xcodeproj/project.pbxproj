@@ -15,6 +15,7 @@
 		AF725E3C1A38E2540035508D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF725E3A1A38E2540035508D /* LaunchScreen.xib */; };
 		AF725E481A38E2540035508D /* UIView_Contrains_Alignment_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF725E471A38E2540035508D /* UIView_Contrains_Alignment_ExampleTests.m */; };
 		AF725E561A38E61D0035508D /* UIView+Alignment.m in Sources */ = {isa = PBXBuildFile; fileRef = AF725E551A38E61D0035508D /* UIView+Alignment.m */; };
+		AF725E581A38E6740035508D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AF725E571A38E6740035508D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		AF725E471A38E2540035508D /* UIView_Contrains_Alignment_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_Contrains_Alignment_ExampleTests.m; sourceTree = "<group>"; };
 		AF725E541A38E61D0035508D /* UIView+Alignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Alignment.h"; path = "source/UIView+Alignment.h"; sourceTree = SOURCE_ROOT; };
 		AF725E551A38E61D0035508D /* UIView+Alignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Alignment.m"; path = "source/UIView+Alignment.m"; sourceTree = SOURCE_ROOT; };
+		AF725E571A38E6740035508D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		AF725E2A1A38E2540035508D /* UIView_Contrains_Alignment_Example */ = {
 			isa = PBXGroup;
 			children = (
+				AF725E571A38E6740035508D /* README.md */,
 				AF725E2F1A38E2540035508D /* AppDelegate.h */,
 				AF725E301A38E2540035508D /* AppDelegate.m */,
 				AF725E321A38E2540035508D /* ViewController.h */,
@@ -226,6 +229,7 @@
 			files = (
 				AF725E561A38E61D0035508D /* UIView+Alignment.m in Sources */,
 				AF725E341A38E2540035508D /* ViewController.m in Sources */,
+				AF725E581A38E6740035508D /* README.md in Sources */,
 				AF725E311A38E2540035508D /* AppDelegate.m in Sources */,
 				AF725E2E1A38E2540035508D /* main.m in Sources */,
 			);
